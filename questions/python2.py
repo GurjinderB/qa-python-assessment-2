@@ -264,7 +264,7 @@ def eight(string,  a):
 
 
 def nine(string1, string2):
-    if string1 <= string2:
+    if len(string1) <= len(string2):
         list1 = [letter for letter in string1]
         list2 = [letter for letter in string2]
     else:
